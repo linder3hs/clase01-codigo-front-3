@@ -1,0 +1,79 @@
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: rgb(206, 119, 119);
+    color: #fff;
+}
+
+input[type=text] {
+    border: 1px solid #f01;
+    border-radius: 6px;
+    padding: 8px;
+    width: 300px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    /* border: 1px solid orange; */
+}
+
+.child-container {
+    /* border: 1px solid blue; */
+    flex: 1 1 30%;
+    height: 50%;
+    
+}
+
+.container-form {
+    text-align: right;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form {
+    width: 400px;
+}
+
+.container-input {
+    margin-top: 10px;
+}
+
+.btn-send {
+    width: 318px;
+    padding: 8px;
+    background: seagreen;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 52px;
+    font-weight: 900;
+}
+
+p {
+    font-weight: 700;
+}
+
+/*  Media query responive design  */
+
+@media only screen and (max-width: 480px) {
+
+    body {
+        background-color: rgb(138, 206, 158);
+    }
+
+    .container-form {
+        text-align: center;
+    }
+}
